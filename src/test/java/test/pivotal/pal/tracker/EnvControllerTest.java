@@ -1,9 +1,10 @@
 package test.pivotal.pal.tracker;
 
+import io.pivotal.pal.tracker.EnvController;
 import org.junit.jupiter.api.Test;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Map;
-import io.pivotal.pal.tracker.EnvController;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
