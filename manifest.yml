@@ -1,7 +1,12 @@
 
+
 name: pal-tracker-rob
 path: build/libs/pal-tracker.jar
+routes:
+  - route: pal-tracker-rob-rob.apps.evans.pal.pivotal.io
+  - route: pal-tracker-rob.apps.evans.pal.pivotal.io
+
 
 env:
-  WELCOME_MESSAGE: Hello from Cloud Foundry
+  WELCOME_MESSAGE: Hello from the review environment
   JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
