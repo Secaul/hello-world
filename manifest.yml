@@ -1,6 +1,6 @@
 
 
-name: pal-tracker-rob
+name: pal-tracker
 path: build/libs/pal-tracker.jar
 routes:
   - route: pal-tracker-rob-rob.apps.evans.pal.pivotal.io
